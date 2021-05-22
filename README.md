@@ -28,7 +28,7 @@ Below are setup steps to install and run the SoundPalette extractor.
           [I 01:49:31.405 NotebookApp] The Jupyter Notebook is running at:
           [I 01:49:31.405 NotebookApp] http://(6cd0a12dffe2 or 127.0.0.1):8888/?token=...```
 7. open the notebook in your web browser by navigating to [http://localhost:8888?token=mir](http://localhost:8888?token=mir)
-8. click on the file called `palette-extractor-X.X.X.ipynb` to open the notebook
+8. click on the file called `palette-extractor.ipynb` to open the notebook
 9. the extractor looks for your audio files inside of the folder called `corpus`
     - please move all of your archive audio files here, without subfolders
 10. click `Cell` > `Run All`
