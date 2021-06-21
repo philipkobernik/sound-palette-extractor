@@ -30,7 +30,8 @@ Below are setup steps to install and run the SoundPalette extractor.
 7. open the notebook in your web browser by navigating to [http://localhost:8888?token=mir](http://localhost:8888?token=mir)
 8. click on the file called `palette-extractor.ipynb` to open the notebook
 9. the extractor looks for your audio files inside of the folder called `corpus`
-    - please move all of your archive audio files here, without subfolders
+    - please move all of your archive audio files here (let me know if this is not possible)
+    - nested folder structures are supported
 10. click `Cell` > `Run All`
 11. The extractor may take some hours to complete, depending on the size of your archive
     - on my 2016 macbook pro, the exractor runs about 2 files/minute
