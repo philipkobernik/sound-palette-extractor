@@ -1,6 +1,6 @@
 # SoundPalette Extractor
 
-Below are setup steps to install and run the SoundPalette extractor.
+### The following are step-by-step instructions to install and run the SoundPalette extractor on an archive of sounds on an external hard drive
 
 1. first, lets install docker!
     - https://docs.docker.com/docker-for-mac/install/

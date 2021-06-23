@@ -1,6 +1,8 @@
 # SoundPalette Extractor
 
-Below are setup steps to install and run the SoundPalette extractor.
+### The following are step-by-step instructions to install and run the SoundPalette extractor in a context where you can copy your archive of sounds into a source folder
+
+(if you want to run the extractor on a folder on an external drive, check out [this guide](https://github.com/philipkobernik/sound-palette-extractor/blob/main/instructions_for_external_drive.md))
 
 1. first, lets install docker!
     - https://docs.docker.com/docker-for-mac/install/
@@ -34,10 +36,10 @@ Below are setup steps to install and run the SoundPalette extractor.
     - nested folder structures are supported
 10. click `Cell` > `Run All`
 11. The extractor may take some hours to complete, depending on the size of your archive
-    - on my 2016 macbook pro, the exractor runs about 2 files/minute
+    - on my 2016 macbook pro, the extractor runs about 2 files/minute
     - for my archive of 941 files, it will run for about 8 hours
 12. The notebook is not very efficient with memory, and memory usage will blow up like a balloon when processing large archives.
     - for this reason, I recommend allocating 7+ GB of memory to the docker container
-    - if the notebook runs out of memory, the kernel will die and restart
-        - if this happens, simply re-start the process with `Cell` > `Run All`
-        - it will skip files that it has already processed
+    - if the notebook runs out of memory, the kernel will simply "die" and stop
+        - if this happens, simply re-start the analysis process by clicking `Cell` > `Run All`
+        - the algorithm will skip files that it has already processed
